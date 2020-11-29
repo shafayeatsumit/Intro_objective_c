@@ -17,9 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    name = @"Sumit";
-    NSString *word = @"Hello";
-    self.label.text = [NSString stringWithFormat:@"%@ %@", word, name];
+    score = 100;
+    bonus =10;
+    checkpoint =100;
+    int finalScore = score+ bonus + checkpoint;
+    self.label.text = [NSString stringWithFormat:@"%d", finalScore];
 }
 
 

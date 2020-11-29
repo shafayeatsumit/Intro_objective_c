@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    NSString *name;
+    int score;
+    int bonus;
+    int checkpoint;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
