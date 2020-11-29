@@ -17,12 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    word = @"Hello"; // this is global;
-    NSString *word2=@"Hello";// within function
-    word2 = @"Goodbye";
-    NSString * const word3= @"Kabir";
-    int1 = 10;
-    const int int2= 12; // constant;    
+    name = @"Sumit";
+    NSString *word = @"Hello";
+    self.label.text = [NSString stringWithFormat:@"%@ %@", word, name];
 }
 
 
