@@ -17,11 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    score = 100;
-    bonus =10;
-    checkpoint =100;
-    int finalScore = score+ bonus + checkpoint;
-    self.label.text = [NSString stringWithFormat:@"%d", finalScore];
+    float1 = 100.56;
+    float2 = 23.45;
+    float result = float1 + float2;
+    self.label.text = [NSString stringWithFormat:@"%.2f",result];
+    double1 = 734774.5333;
+    double2 = 734849.6788;
+    double result2=double1+double2;
+    self.label2.text = [NSString stringWithFormat:@"%.1f",result2];
+    
 }
 
 

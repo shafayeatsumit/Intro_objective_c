@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    int score;
-    int bonus;
-    int checkpoint;
+    
+    float float1;
+    float float2;
+    
+    double double1;
+    double double2;
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *label2;
 
 @end
 
