@@ -9,15 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
-    BOOL bool1;
-    BOOL bool2;
 }
 
-@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 
 
-@property (weak, nonatomic) IBOutlet UISwitch *booleanSwitch;
 
 @end
 

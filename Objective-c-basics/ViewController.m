@@ -17,14 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    bool1 = NO;
-    bool2 = true;
-    
-    self.booleanSwitch.on = bool1;
-    self.button.enabled = bool2;
+//    NSArray *array = @[@"Apple", @"Banana"];
+    NSMutableArray *array =[[NSMutableArray alloc]initWithObjects:@"Mango",@"Orange",nil];
+    [array addObject:@"Melon"];
+    [array insertObject:@"Strawberry" atIndex:0];
+    [array removeObjectAtIndex:0];
+    self.label.text = array[0];
 }
 
 
-- (IBAction)button:(id)sender {
-}
 @end
